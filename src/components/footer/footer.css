@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  background: var(--light-yellow);
+  font-size: 10px;
+}
+
+footer div {
+  flex: 1;
+  text-align: right;
+}
+
+footer p, a {
+  display: inline-block;
+}

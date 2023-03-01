@@ -1,0 +1,97 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+:root {
+  --dark-green: #094D48;
+  --light-green: #32B6AB;
+  --light-yellow: #FFFADE;
+  --dark-grey: #011917;
+  --dark-red: #620D36;
+
+  --font-l: clamp(3.5rem, 4vw + 1rem, 3rem);
+  --font-m: 2.5rem;
+  --font-s: 1rem;
+}
+
+body {
+  background-color: var(--light-yellow);
+  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 20px 20px 40px 20px;
+  color: var(--dark-grey);
+  font-size: var(--font-s);
+}
+
+main {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: var(--light-yellow);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 5px 0;
+  color: var(--dark-green);
+  font-family: 'Merriweather', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--font-l);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: var(--font-m);
+}
+
+h3, h4 {
+  font-size: var(--font-s);
+}
+
+[role="button"] {
+  background-color: var(--dark-green);
+  color: var(--light-yellow);
+}
+
+section {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 5px 0 30px 0;
+  padding-left: 25px;
+}
+
+li {
+  padding: 8px 0;
+}
+
+li::marker {
+  color: var(--light-green);
+}
+
+a,
+a:visited {
+  color: var(--dark-green);
+  text-decoration-style: dotted;
+}
+
+a:hover {
+  text-decoration-style: wavy;
+}
+
+code {
+  font-family: Menlo, Monaco, Courier New, monospace;
+  font-size: 0.9em;
+  background-color: rgb(224, 224, 224);
+  padding: 2px 4px;
+  border-radius: 3px;
+  border-bottom: 2px solid #bfbfbf;
+}
