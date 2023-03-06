@@ -7,10 +7,10 @@ export default component$(() => {
   return (
     <footer>
       <div>
-        <p>Made with ♡ and ☕️ </p>
-        {"   |   "}
+        <p>Made with ♡ and ☕️</p>
+        {" | "}
         <a href="https://www.linkedin.com/in/work-with-kelly/" target="_blank">
-          Let's work together
+          Let's work together ↗︎
         </a>
       </div>
     </footer>

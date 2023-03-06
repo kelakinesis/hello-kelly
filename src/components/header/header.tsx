@@ -19,11 +19,6 @@ export default component$(() => {
           </a>
         </li>
         <li>
-          <a href="/about" target="_self">
-            About
-          </a>
-        </li>
-        <li>
           <a href="/projects" target="_self">
             Projects
           </a>
